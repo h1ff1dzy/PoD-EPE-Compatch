@@ -1,0 +1,824 @@
+gothic = {
+	color = gothic
+	
+	ethos = ethos_bellicose
+	heritage = heritage_gothic
+	language = language_central_germanic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_isolationist
+		tradition_martial_admiration
+		tradition_stand_and_fight
+		tradition_hird #Added from vanilla so that they unlock huscarls
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_visigothic
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_16
+	
+	ethnicities = { # Copied from Norse
+	2 = european_caucasian_nordic_01
+	2 = european_caucasian_nordic_02
+	2 = european_caucasian_nordic_03
+	2 = european_caucasian_nordic_04
+	2 = european_caucasian_nordic_05
+	2 = european_caucasian_nordic_06
+	2 = european_caucasian_nordic_07
+	2 = european_caucasian_nordic_08
+	2 = european_caucasian_nordic_09
+	2 = european_caucasian_nordic_10
+	2 = european_caucasian_nordic_11
+	2 = european_caucasian_nordic_12
+	2 = european_caucasian_nordic_13
+	2 = european_caucasian_nordic_14
+	2 = european_caucasian_nordic_15
+	2 = european_caucasian_nordic_16
+	2 = european_caucasian_nordic_17
+	2 = european_caucasian_nordic_18
+	2 = european_caucasian_nordic_19
+	2 = european_caucasian_nordic_20
+	2 = european_caucasian_nordic_21
+	2 = european_caucasian_nordic_22
+	2 = european_caucasian_nordic_23
+	2 = european_caucasian_nordic_24
+	2 = european_caucasian_nordic_25
+	2 = european_caucasian_nordic_26
+	2 = european_caucasian_nordic_27
+	2 = european_caucasian_nordic_28
+	2 = european_caucasian_nordic_29
+	2 = european_caucasian_nordic_30
+	2 = european_caucasian_nordic_31
+	2 = european_caucasian_nordic_32
+	2 = european_caucasian_nordic_33
+	2 = european_caucasian_nordic_34
+	2 = european_caucasian_nordic_35
+	2 = european_caucasian_nordic_36
+	2 = european_caucasian_nordic_37
+	2 = european_caucasian_nordic_38
+	2 = european_caucasian_nordic_39
+	2 = european_caucasian_nordic_40
+	2 = european_caucasian_nordic_41
+	2 = european_caucasian_nordic_42
+	2 = european_caucasian_nordic_43
+	2 = european_caucasian_nordic_44
+	2 = european_caucasian_nordic_45
+	2 = european_caucasian_nordic_46
+	2 = european_caucasian_nordic_47
+	2 = european_caucasian_nordic_48
+	2 = european_caucasian_nordic_49
+	2 = european_caucasian_nordic_50
+	2 = european_eastern_slavic_1
+	2 = european_eastern_slavic_2
+	2 = european_eastern_slavic_3
+	2 = european_eastern_slavic_4
+	2 = european_eastern_slavic_5
+	2 = european_eastern_slavic_6
+	2 = european_eastern_slavic_7
+	2 = european_eastern_slavic_8
+	2 = european_eastern_slavic_9
+	2 = european_eastern_slavic_10
+	2 = european_eastern_slavic_11
+	2 = european_eastern_slavic_12
+	2 = european_eastern_slavic_13
+	2 = european_eastern_slavic_14
+	2 = european_eastern_slavic_15
+	2 = european_eastern_slavic_16
+	2 = european_eastern_slavic_17
+	2 = european_eastern_slavic_18
+	2 = european_eastern_slavic_19
+	2 = european_eastern_slavic_20
+	2 = european_eastern_slavic_21
+	2 = european_eastern_slavic_22
+	2 = european_eastern_slavic_23
+	2 = european_eastern_slavic_24
+	2 = european_eastern_slavic_25
+	2 = european_eastern_slavic_26
+	2 = european_eastern_slavic_27
+	2 = european_eastern_slavic_28
+	2 = european_eastern_slavic_29
+	2 = european_eastern_slavic_30
+	2 = european_eastern_slavic_31
+	2 = european_eastern_slavic_32
+	2 = european_eastern_slavic_33
+	2 = european_eastern_slavic_34
+	2 = european_eastern_slavic_35
+	2 = european_eastern_slavic_36
+	2 = european_eastern_slavic_37
+	2 = european_eastern_slavic_38
+	2 = european_eastern_slavic_39
+	2 = european_eastern_slavic_40
+	2 = european_eastern_slavic_41
+	2 = european_eastern_slavic_42
+	2 = european_eastern_slavic_43
+	2 = european_eastern_slavic_44
+	2 = european_eastern_slavic_45
+	2 = european_eastern_slavic_46
+	2 = european_eastern_slavic_47
+	2 = european_eastern_slavic_48
+	2 = european_eastern_slavic_49
+	2 = epe_random_european_01
+	2 = epe_random_european_01
+	2 = epe_random_european_01
+	2 = epe_random_european_01
+	2 = epe_random_european_01
+	2 = epe_random_european_01
+	2 = epe_random_european_01
+	2 = epe_random_european_01
+	2 = epe_random_european_01
+	2 = epe_random_european_01
+	}
+}
+
+ancient_egyptian = {
+	color = ancient_egyptian
+	
+	ethos = ethos_spiritual
+	heritage = heritage_ancientegyptian
+	language = language_ancient_egyptian
+	martial_custom = martial_custom_equal # Questionable, women in Egyptian court had equal status to men, but they were granted that status *by* men
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_agrarian
+		tradition_zealous_people
+		tradition_hereditary_hierarchy
+	}
+	
+	name_list = name_list_ancient_egyptian
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_16
+
+	ethnicities = {
+		3 = mid_east_egyptian_1
+		3 = mid_east_egyptian_2
+		3 = mid_east_egyptian_3
+		3 = mid_east_egyptian_4
+		3 = mid_east_egyptian_5
+		3 = mid_east_egyptian_6
+		3 = mid_east_egyptian_7
+		3 = mid_east_egyptian_8
+		3 = mid_east_egyptian_9
+		3 = mid_east_egyptian_10
+		3 = mid_east_egyptian_11
+		3 = mid_east_egyptian_12
+		3 = mid_east_egyptian_13
+		3 = mid_east_egyptian_14
+		3 = mid_east_egyptian_15
+		3 = mid_east_egyptian_16
+		3 = mid_east_egyptian_17
+		3 = mid_east_egyptian_18
+		3 = mid_east_egyptian_19
+		3 = mid_east_egyptian_20
+		3 = mid_east_egyptian_21
+		3 = mid_east_egyptian_22
+		3 = mid_east_egyptian_23
+		3 = mid_east_egyptian_24
+		3 = mid_east_egyptian_25
+		3 = mid_east_egyptian_26
+		3 = mid_east_egyptian_27
+		3 = mid_east_egyptian_28
+		3 = mid_east_egyptian_29
+		3 = mid_east_egyptian_30
+		3 = mid_east_egyptian_31
+		3 = mid_east_egyptian_32
+		3 = mid_east_egyptian_33
+		3 = mid_east_egyptian_34
+		3 = mid_east_egyptian_35
+		3 = mid_east_egyptian_36
+		3 = mid_east_egyptian_37
+		3 = mid_east_egyptian_38
+		3 = mid_east_egyptian_39
+		3 = mid_east_egyptian_40
+		3 = mid_east_egyptian_41
+		3 = mid_east_egyptian_42
+		3 = mid_east_egyptian_43
+		3 = mid_east_egyptian_44
+		3 = mid_east_egyptian_45
+		3 = mid_east_egyptian_46
+		3 = mid_east_egyptian_47
+		3 = mid_east_egyptian_48
+		3 = mid_east_egyptian_49
+		3 = mid_east_egyptian_50
+	}
+}
+
+hebrew = {
+	color = hebrew
+
+	ethos = ethos_spiritual
+	heritage = heritage_israelite
+	language = language_israelite
+	martial_custom = martial_custom_male_only	
+	head_determination = head_determination_domain
+	traditions = { # I'm pretty sure anything I put in here or do not put in here will spark a discussion or two
+		tradition_philosopher_culture
+		tradition_zealous_people
+		tradition_mystical_ancestors
+		tradition_fervent_temple_builders
+		tradition_mobile_guards #Added from vanilla so that they have a unique MaA like the other Israelite
+	}
+
+	name_list = name_list_radhanite # The Radhanite namelist is near-exclusively biblical names
+
+	coa_gfx = { israelite_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_16
+
+	ethnicities = {
+		2 = mid_east_arabic_1
+		2 = mid_east_arabic_2
+		2 = mid_east_arabic_3
+		2 = mid_east_arabic_4
+		2 = mid_east_arabic_5
+		2 = mid_east_arabic_6
+		2 = mid_east_arabic_7
+		2 = mid_east_arabic_8
+		2 = mid_east_arabic_9
+		2 = mid_east_arabic_10
+		2 = mid_east_arabic_11
+		2 = mid_east_arabic_12
+		2 = mid_east_arabic_13
+		2 = mid_east_arabic_14
+		2 = mid_east_arabic_15
+		2 = mid_east_arabic_16
+		2 = mid_east_arabic_17
+		2 = mid_east_arabic_18
+		2 = mid_east_arabic_19
+		2 = mid_east_arabic_20
+		2 = mid_east_arabic_21
+		2 = mid_east_arabic_22
+		2 = mid_east_arabic_23
+		2 = mid_east_arabic_24
+		2 = mid_east_arabic_25
+		2 = mid_east_arabic_26
+		2 = mid_east_arabic_27
+		2 = mid_east_arabic_28
+		2 = mid_east_arabic_29
+		2 = mid_east_arabic_30
+		2 = mid_east_arabic_31
+		2 = mid_east_arabic_32
+		2 = mid_east_arabic_33
+		2 = mid_east_arabic_34
+		2 = mid_east_arabic_35
+		2 = mid_east_arabic_36
+		2 = mid_east_arabic_37
+		2 = mid_east_arabic_38
+		2 = mid_east_arabic_39
+		2 = mid_east_arabic_40
+		2 = mid_east_arabic_41
+		2 = mid_east_arabic_42
+		2 = mid_east_arabic_43
+		2 = mid_east_arabic_44
+		2 = mid_east_arabic_45
+		2 = mid_east_arabic_46
+		2 = mid_east_arabic_47
+		2 = mid_east_arabic_48
+		2 = mid_east_arabic_49
+		2 = mid_east_arabic_50
+		2 = mid_east_arabic_51
+		2 = mid_east_arabic_52
+		2 = mid_east_arabic_53
+		2 = mid_east_arabic_54
+		2 = mid_east_arabic_55
+		2 = mid_east_arabic_56
+		2 = mid_east_arabic_57
+		2 = mid_east_arabic_58
+		2 = mid_east_arabic_59
+		2 = mid_east_arabic_60
+		2 = mid_east_arabic_61
+		2 = mid_east_arabic_62
+		2 = mid_east_arabic_63
+		2 = mid_east_arabic_64
+		2 = mid_east_arabic_65
+		2 = mid_east_arabic_66
+		2 = mid_east_arabic_67
+		2 = mid_east_arabic_68
+		2 = mid_east_arabic_69
+		2 = mid_east_arabic_70
+		2 = mid_east_arabic_71
+		2 = mid_east_arabic_72
+		2 = mid_east_arabic_73
+		2 = mid_east_arabic_74
+		2 = mid_east_arabic_75
+		2 = mid_east_arabic_76
+		2 = mid_east_arabic_77
+		2 = mid_east_arabic_78
+		2 = mid_east_arabic_79
+		2 = mid_east_arabic_80
+		2 = mid_east_arabic_81
+		2 = mid_east_arabic_82
+		2 = mid_east_arabic_83
+		2 = mid_east_arabic_84
+		2 = mid_east_arabic_85
+		2 = mid_east_arabic_86
+		2 = mid_east_arabic_87
+		2 = mid_east_arabic_88
+		2 = mid_east_arabic_89
+		2 = mid_east_arabic_90
+		2 = mid_east_arabic_91
+		2 = mid_east_arabic_92
+		2 = mid_east_arabic_93
+		2 = mid_east_arabic_94
+		2 = mid_east_arabic_95
+		2 = mid_east_arabic_96
+		2 = mid_east_arabic_97
+		2 = mid_east_arabic_98
+		2 = mid_east_arabic_99
+		2 = mid_east_arabic_100
+		2 = mid_east_arabic_101
+		2 = mid_east_arabic_102
+		2 = mid_east_arabic_103
+		2 = mid_east_arabic_104
+		2 = mid_east_arabic_105
+		2 = mid_east_arabic_106
+		2 = mid_east_arabic_107
+		2 = mid_east_arabic_108
+	}
+}
+
+hunnic = {
+	color = hunnic
+	
+	ethos = ethos_bellicose
+	heritage = heritage_hunnic
+	language = language_hunnic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_horse_lords
+		tradition_horse_breeder
+		tradition_hunters
+		#tradition_pastoralists
+		tradition_talent_acquisition
+		#tradition_steppe_tolerance
+	}
+	
+	name_list = name_list_hunnic
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx } 
+	building_gfx = { steppe_building_gfx } 
+	clothing_gfx = { mongol_clothing_gfx } 
+	unit_gfx = { mongol_unit_gfx } 	
+	house_coa_frame = house_frame_16
+
+	ethnicities = {
+		2 = asian_mongol_1
+		2 = asian_mongol_2
+		2 = asian_mongol_3
+		2 = asian_mongol_4
+		2 = asian_mongol_5
+		2 = asian_mongol_6
+		2 = asian_mongol_7
+		2 = asian_mongol_8
+		2 = asian_mongol_9
+		2 = asian_mongol_10
+		2 = asian_mongol_11
+		2 = asian_mongol_12
+		2 = asian_mongol_13
+		2 = asian_mongol_14
+		2 = asian_mongol_15
+		2 = asian_mongol_16
+		2 = asian_mongol_17
+		2 = asian_mongol_18
+		2 = asian_mongol_19
+		2 = asian_mongol_20
+		2 = asian_mongol_21
+		2 = asian_mongol_22
+		2 = asian_mongol_23
+		2 = asian_mongol_24
+		2 = asian_mongol_25
+		2 = asian_mongol_26
+		2 = asian_mongol_27
+		2 = asian_mongol_28
+		2 = asian_mongol_29
+		2 = asian_mongol_30
+		2 = asian_mongol_31
+	}
+}
+
+trojan = {
+	color = trojan
+
+	ethos = ethos_bellicose
+	heritage = heritage_ancient_greek
+	language = language_ancient_greek
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_legalistic
+		tradition_astute_diplomats
+		tradition_maritime_mercantilism
+	}
+	
+	name_list = name_list_trojan
+	
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_16
+	
+	ethnicities = {
+		2 = european_med_greek_1
+		2 = european_med_greek_2
+		2 = european_med_greek_3
+		2 = european_med_greek_4
+		2 = european_med_greek_5
+		2 = european_med_greek_6
+		2 = european_med_greek_7
+		2 = european_med_greek_8
+		2 = european_med_greek_9
+		2 = european_med_greek_10
+		2 = european_med_greek_11
+		2 = european_med_greek_12
+		2 = european_med_greek_13
+		2 = european_med_greek_14
+		2 = european_med_greek_15
+		2 = european_med_greek_16
+		2 = european_med_greek_17
+		2 = european_med_greek_18
+		2 = european_med_greek_19
+		2 = european_med_greek_20
+		2 = european_med_greek_21
+		2 = european_med_greek_22
+		2 = european_med_greek_23
+		2 = european_med_greek_24
+		2 = european_med_greek_25
+		2 = european_med_greek_26
+		2 = european_med_greek_27
+		2 = european_med_greek_28
+		2 = european_med_greek_29
+		2 = european_med_greek_30
+		2 = european_med_greek_31
+		2 = european_med_greek_32
+		2 = european_med_greek_33
+		2 = european_med_greek_34
+		2 = european_med_greek_35
+		2 = european_med_greek_36
+		2 = european_med_greek_37
+		2 = european_med_greek_38
+		2 = european_med_greek_39
+		2 = european_med_greek_40
+		2 = european_med_greek_41
+		2 = european_med_greek_42
+		2 = european_med_greek_43
+		2 = european_med_greek_44
+		2 = european_med_greek_45
+		2 = european_med_greek_46
+		2 = european_med_greek_47
+		2 = european_med_greek_48
+		2 = european_med_greek_49
+		2 = european_med_greek_50
+		2 = european_med_greek_51
+		2 = european_med_greek_52
+		2 = european_med_greek_53
+		2 = european_med_greek_54
+		2 = european_med_greek_55
+		2 = european_med_greek_56
+		2 = european_med_greek_57
+		2 = european_med_greek_58
+		2 = european_med_greek_59
+		2 = european_med_greek_60
+		2 = european_med_greek_61
+		2 = european_med_greek_62
+		2 = european_med_greek_63
+		2 = european_med_greek_64
+		2 = european_med_greek_65
+		2 = european_med_greek_66
+		2 = european_med_greek_67
+	}
+}
+
+macedonian = {
+	color = { 0.7 0.6 0.95 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_ancient_greek
+	language = language_ancient_greek
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_legalistic
+		tradition_astute_diplomats
+	}
+	
+	name_list = name_list_trojan
+	
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_16
+	
+	ethnicities = {
+		2 = european_med_greek_1
+		2 = european_med_greek_2
+		2 = european_med_greek_3
+		2 = european_med_greek_4
+		2 = european_med_greek_5
+		2 = european_med_greek_6
+		2 = european_med_greek_7
+		2 = european_med_greek_8
+		2 = european_med_greek_9
+		2 = european_med_greek_10
+		2 = european_med_greek_11
+		2 = european_med_greek_12
+		2 = european_med_greek_13
+		2 = european_med_greek_14
+		2 = european_med_greek_15
+		2 = european_med_greek_16
+		2 = european_med_greek_17
+		2 = european_med_greek_18
+		2 = european_med_greek_19
+		2 = european_med_greek_20
+		2 = european_med_greek_21
+		2 = european_med_greek_22
+		2 = european_med_greek_23
+		2 = european_med_greek_24
+		2 = european_med_greek_25
+		2 = european_med_greek_26
+		2 = european_med_greek_27
+		2 = european_med_greek_28
+		2 = european_med_greek_29
+		2 = european_med_greek_30
+		2 = european_med_greek_31
+		2 = european_med_greek_32
+		2 = european_med_greek_33
+		2 = european_med_greek_34
+		2 = european_med_greek_35
+		2 = european_med_greek_36
+		2 = european_med_greek_37
+		2 = european_med_greek_38
+		2 = european_med_greek_39
+		2 = european_med_greek_40
+		2 = european_med_greek_41
+		2 = european_med_greek_42
+		2 = european_med_greek_43
+		2 = european_med_greek_44
+		2 = european_med_greek_45
+		2 = european_med_greek_46
+		2 = european_med_greek_47
+		2 = european_med_greek_48
+		2 = european_med_greek_49
+		2 = european_med_greek_50
+		2 = european_med_greek_51
+		2 = european_med_greek_52
+		2 = european_med_greek_53
+		2 = european_med_greek_54
+		2 = european_med_greek_55
+		2 = european_med_greek_56
+		2 = european_med_greek_57
+		2 = european_med_greek_58
+		2 = european_med_greek_59
+		2 = european_med_greek_60
+		2 = european_med_greek_61
+		2 = european_med_greek_62
+		2 = european_med_greek_63
+		2 = european_med_greek_64
+		2 = european_med_greek_65
+		2 = european_med_greek_66
+		2 = european_med_greek_67
+	}
+}
+
+carthaginian = {
+	color = { 0.7 0.6 0.95 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_phoenician
+	language = language_carthaginian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_swords_for_hire
+		tradition_eye_for_an_eye
+		tradition_seafaring
+		tradition_ce1_ritual_washing
+	}
+
+	name_list = name_list_carthaginian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }  
+	unit_gfx = { mena_unit_gfx } 	
+	house_coa_frame = house_frame_13
+	house_coa_mask_offset = { 0.0 -0.03 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		2 = north_african_amazigh_01
+		2 = north_african_amazigh_02
+		2 = north_african_amazigh_03
+		2 = north_african_amazigh_04
+		2 = north_african_amazigh_05
+		2 = north_african_amazigh_06
+		2 = north_african_amazigh_07
+		2 = north_african_amazigh_08
+		2 = north_african_amazigh_09
+		2 = north_african_amazigh_10
+		2 = north_african_amazigh_11
+		2 = north_african_amazigh_12
+		2 = north_african_amazigh_13
+		2 = north_african_amazigh_14
+		2 = north_african_amazigh_15
+		2 = north_african_amazigh_16
+		2 = north_african_amazigh_17
+		2 = mid_east_arabic_1
+		2 = mid_east_arabic_2
+		2 = mid_east_arabic_3
+		2 = mid_east_arabic_4
+		2 = mid_east_arabic_5
+		2 = mid_east_arabic_6
+		2 = mid_east_arabic_7
+		2 = mid_east_arabic_8
+		2 = mid_east_arabic_9
+		2 = mid_east_arabic_10
+		2 = mid_east_arabic_11
+		2 = mid_east_arabic_12
+		2 = mid_east_arabic_13
+		2 = mid_east_arabic_14
+		2 = mid_east_arabic_15
+		2 = mid_east_arabic_16
+		2 = mid_east_arabic_17
+		2 = mid_east_arabic_18
+		2 = mid_east_arabic_19
+		2 = mid_east_arabic_20
+		2 = mid_east_arabic_21
+		2 = mid_east_arabic_22
+		2 = mid_east_arabic_23
+		2 = mid_east_arabic_24
+		2 = mid_east_arabic_25
+		2 = mid_east_arabic_26
+		2 = mid_east_arabic_27
+		2 = mid_east_arabic_28
+		2 = mid_east_arabic_29
+		2 = mid_east_arabic_30
+		2 = mid_east_arabic_31
+		2 = mid_east_arabic_32
+		2 = mid_east_arabic_33
+		2 = mid_east_arabic_34
+		2 = mid_east_arabic_35
+		2 = mid_east_arabic_36
+		2 = mid_east_arabic_37
+		2 = mid_east_arabic_38
+		2 = mid_east_arabic_39
+		2 = mid_east_arabic_40
+		2 = mid_east_arabic_41
+		2 = mid_east_arabic_42
+		2 = mid_east_arabic_43
+		2 = mid_east_arabic_44
+		2 = mid_east_arabic_45
+		2 = mid_east_arabic_46
+		2 = mid_east_arabic_47
+		2 = mid_east_arabic_48
+		2 = mid_east_arabic_49
+		2 = mid_east_arabic_50
+		2 = mid_east_arabic_51
+		2 = mid_east_arabic_52
+		2 = mid_east_arabic_53
+		2 = mid_east_arabic_54
+		2 = mid_east_arabic_55
+		2 = mid_east_arabic_56
+		2 = mid_east_arabic_57
+		2 = mid_east_arabic_58
+		2 = mid_east_arabic_59
+		2 = mid_east_arabic_60
+		2 = mid_east_arabic_61
+		2 = mid_east_arabic_62
+		2 = mid_east_arabic_63
+		2 = mid_east_arabic_64
+		2 = mid_east_arabic_65
+		2 = mid_east_arabic_66
+		2 = mid_east_arabic_67
+		2 = mid_east_arabic_68
+		2 = mid_east_arabic_69
+		2 = mid_east_arabic_70
+		2 = mid_east_arabic_71
+		2 = mid_east_arabic_72
+		2 = mid_east_arabic_73
+		2 = mid_east_arabic_74
+		2 = mid_east_arabic_75
+		2 = mid_east_arabic_76
+		2 = mid_east_arabic_77
+		2 = mid_east_arabic_78
+		2 = mid_east_arabic_79
+		2 = mid_east_arabic_80
+		2 = mid_east_arabic_81
+		2 = mid_east_arabic_82
+		2 = mid_east_arabic_83
+		2 = mid_east_arabic_84
+		2 = mid_east_arabic_85
+		2 = mid_east_arabic_86
+		2 = mid_east_arabic_87
+		2 = mid_east_arabic_88
+		2 = mid_east_arabic_89
+		2 = mid_east_arabic_90
+		2 = mid_east_arabic_91
+		2 = mid_east_arabic_92
+		2 = mid_east_arabic_93
+		2 = mid_east_arabic_94
+		2 = mid_east_arabic_95
+		2 = mid_east_arabic_96
+		2 = mid_east_arabic_97
+		2 = mid_east_arabic_98
+		2 = mid_east_arabic_99
+		2 = mid_east_arabic_100
+		2 = mid_east_arabic_101
+		2 = mid_east_arabic_102
+		2 = mid_east_arabic_103
+		2 = mid_east_arabic_104
+		2 = mid_east_arabic_105
+		2 = mid_east_arabic_106
+		2 = mid_east_arabic_107
+		2 = mid_east_arabic_108
+		2 = european_med_greek_1
+		2 = european_med_greek_2
+		2 = european_med_greek_3
+		2 = european_med_greek_4
+		2 = european_med_greek_5
+		2 = european_med_greek_6
+		2 = european_med_greek_7
+		2 = european_med_greek_8
+		2 = european_med_greek_9
+		2 = european_med_greek_10
+		2 = european_med_greek_11
+		2 = european_med_greek_12
+		2 = european_med_greek_13
+		2 = european_med_greek_14
+		2 = european_med_greek_15
+		2 = european_med_greek_16
+		2 = european_med_greek_17
+		2 = european_med_greek_18
+		2 = european_med_greek_19
+		2 = european_med_greek_20
+		2 = european_med_greek_21
+		2 = european_med_greek_22
+		2 = european_med_greek_23
+		2 = european_med_greek_24
+		2 = european_med_greek_25
+		2 = european_med_greek_26
+		2 = european_med_greek_27
+		2 = european_med_greek_28
+		2 = european_med_greek_29
+		2 = european_med_greek_30
+		2 = european_med_greek_31
+		2 = european_med_greek_32
+		2 = european_med_greek_33
+		2 = european_med_greek_34
+		2 = european_med_greek_35
+		2 = european_med_greek_36
+		2 = european_med_greek_37
+		2 = european_med_greek_38
+		2 = european_med_greek_39
+		2 = european_med_greek_40
+		2 = european_med_greek_41
+		2 = european_med_greek_42
+		2 = european_med_greek_43
+		2 = european_med_greek_44
+		2 = european_med_greek_45
+		2 = european_med_greek_46
+		2 = european_med_greek_47
+		2 = european_med_greek_48
+		2 = european_med_greek_49
+		2 = european_med_greek_50
+		2 = european_med_greek_51
+		2 = european_med_greek_52
+		2 = european_med_greek_53
+		2 = european_med_greek_54
+		2 = european_med_greek_55
+		2 = european_med_greek_56
+		2 = european_med_greek_57
+		2 = european_med_greek_58
+		2 = european_med_greek_59
+		2 = european_med_greek_60
+		2 = european_med_greek_61
+		2 = european_med_greek_62
+		2 = european_med_greek_63
+		2 = european_med_greek_64
+		2 = european_med_greek_65
+		2 = european_med_greek_66
+		2 = european_med_greek_67
+	}
+}

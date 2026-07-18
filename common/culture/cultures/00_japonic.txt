@@ -1,0 +1,275 @@
+# Japonic and Ainuic
+
+japanese = {
+	color = japanese
+
+	#name_order_convention = dynasty_first
+	ethos = ethos_courtly
+	heritage = heritage_japonic
+	language = language_japonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	
+	dlc_tradition = {
+		trait = tradition_tgp_imperial_peace
+		requires_dlc_flag = all_under_heaven
+	}
+
+	dlc_tradition = {
+		trait = tradition_tgp_ephemeral_grace
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_poetry
+	}
+
+	dlc_tradition = {
+		trait = tradition_tgp_mountain_island
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_mountaineers
+	}
+
+	dlc_tradition = {
+		trait = tradition_tgp_inward_perfection
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_isolationist
+	}
+
+	dlc_tradition = {
+		trait = tradition_tgp_japanese_houses
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_noble_adoption
+	}
+
+	dlc_tradition = {
+		trait = tradition_tgp_warrior_monks
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_warrior_monks
+	}
+
+	name_list = name_list_yamato
+
+	coa_gfx = { japanese_coa_gfx }
+	building_gfx = { japanese_building_gfx }
+	clothing_gfx = { japanese_clothing_gfx }
+	unit_gfx = { japanese_unit_gfx }
+	house_coa_frame = house_japan
+
+	ethnicities = {
+		2 = east_asian_japanese_01
+		2 = east_asian_japanese_02
+		2 = east_asian_japanese_03
+		2 = east_asian_japanese_04
+		2 = east_asian_japanese_05
+		2 = east_asian_japanese_06
+		2 = east_asian_japanese_07
+		2 = east_asian_japanese_08
+		2 = east_asian_japanese_09
+		2 = east_asian_japanese_10
+		2 = east_asian_japanese_11
+		2 = east_asian_japanese_12
+		2 = east_asian_japanese_13
+		2 = east_asian_japanese_14
+		2 = east_asian_japanese_15
+		2 = east_asian_japanese_16
+		2 = east_asian_japanese_17
+		2 = east_asian_japanese_18
+		2 = east_asian_japanese_19
+		2 = east_asian_japanese_20
+		2 = east_asian_japanese_21
+		2 = east_asian_japanese_22
+		2 = east_asian_japanese_23
+		2 = east_asian_japanese_24
+		2 = east_asian_japanese_25
+		2 = east_asian_japanese_26
+		2 = east_asian_japanese_27
+		2 = east_asian_japanese_28
+		2 = east_asian_japanese_29
+		2 = east_asian_japanese_30
+		2 = east_asian_japanese_31
+		2 = east_asian_japanese_32
+		2 = east_asian_japanese_33
+		2 = east_asian_japanese_34
+		2 = east_asian_japanese_35
+		2 = east_asian_japanese_36
+		2 = east_asian_japanese_37
+	}
+}
+
+emishi = {
+	color = emishi
+
+	#name_order_convention = dynasty_first
+	ethos = ethos_stoic
+	heritage = heritage_ainuic
+	language = language_japonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_hunters
+		tradition_isolationist
+		tradition_forest_fighters
+		tradition_sacred_hunts
+	}
+
+	dlc_tradition = {
+		trait = tradition_tgp_defiant_ambushers
+		requires_dlc_flag = all_under_heaven
+	}
+
+	name_list = name_list_emishi
+
+	coa_gfx = { japanese_coa_gfx }
+	building_gfx = { emishi_building_gfx japanese_building_gfx }
+	clothing_gfx = { emishi_clothing_gfx ainu_clothing_gfx }
+	unit_gfx = { emishi_unit_gfx japanese_unit_gfx }
+	house_coa_frame = house_japan
+
+	ethnicities = {
+		2 = siberian_siberian_01
+		2 = siberian_siberian_02
+		2 = siberian_siberian_03
+		2 = siberian_siberian_04
+		2 = siberian_siberian_05
+		2 = siberian_siberian_06
+		2 = siberian_siberian_07
+		2 = siberian_siberian_08
+		2 = siberian_siberian_09
+		2 = siberian_siberian_10
+		2 = siberian_siberian_11
+		2 = siberian_siberian_12
+		2 = siberian_siberian_13
+		2 = siberian_siberian_14
+		2 = siberian_siberian_15
+		2 = siberian_siberian_16
+		2 = siberian_siberian_17
+		2 = siberian_siberian_18
+		2 = siberian_siberian_19
+		2 = siberian_siberian_20
+		2 = siberian_siberian_21
+		2 = siberian_siberian_22
+		2 = siberian_siberian_23
+		2 = siberian_siberian_24
+		2 = siberian_siberian_25
+	}
+}
+
+ainu = {
+	color = ainu
+
+	#name_order_convention = dynasty_first
+	ethos = ethos_spiritual
+	heritage = heritage_ainuic
+	language = language_ainu
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_wetlanders
+		tradition_mystical_ancestors
+		tradition_fishermen
+		tradition_forest_fighters
+		tradition_hunters
+	}
+
+	name_list = name_list_ainu
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { amuric_building_gfx steppe_building_gfx }
+	clothing_gfx = { emishi_clothing_gfx ainu_clothing_gfx }
+	unit_gfx = { emishi_unit_gfx japanese_unit_gfx }
+	house_coa_frame = house_japan
+
+	ethnicities = {
+		2 = siberian_siberian_01
+		2 = siberian_siberian_02
+		2 = siberian_siberian_03
+		2 = siberian_siberian_04
+		2 = siberian_siberian_05
+		2 = siberian_siberian_06
+		2 = siberian_siberian_07
+		2 = siberian_siberian_08
+		2 = siberian_siberian_09
+		2 = siberian_siberian_10
+		2 = siberian_siberian_11
+		2 = siberian_siberian_12
+		2 = siberian_siberian_13
+		2 = siberian_siberian_14
+		2 = siberian_siberian_15
+		2 = siberian_siberian_16
+		2 = siberian_siberian_17
+		2 = siberian_siberian_18
+		2 = siberian_siberian_19
+		2 = siberian_siberian_20
+		2 = siberian_siberian_21
+		2 = siberian_siberian_22
+		2 = siberian_siberian_23
+		2 = siberian_siberian_24
+		2 = siberian_siberian_25
+	}
+}
+
+ryukyuan = {
+	color = ryukyuan
+
+	#name_order_convention = dynasty_first
+	ethos = ethos_spiritual
+	heritage = heritage_japonic
+	language = language_japonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_seafaring
+		tradition_fishermen
+		tradition_maritime_mercantilism
+		tradition_ce1_ritual_washing
+	}
+
+	name_list = name_list_ryukyuan
+
+	coa_gfx = { japanese_coa_gfx }
+	building_gfx = { japanese_building_gfx }
+	clothing_gfx = { japanese_clothing_gfx }
+	unit_gfx = { japanese_unit_gfx }
+	house_coa_frame = house_japan
+
+	ethnicities = {
+		2 = east_asian_japanese_01
+		2 = east_asian_japanese_02
+		2 = east_asian_japanese_03
+		2 = east_asian_japanese_04
+		2 = east_asian_japanese_05
+		2 = east_asian_japanese_06
+		2 = east_asian_japanese_07
+		2 = east_asian_japanese_08
+		2 = east_asian_japanese_09
+		2 = east_asian_japanese_10
+		2 = east_asian_japanese_11
+		2 = east_asian_japanese_12
+		2 = east_asian_japanese_13
+		2 = east_asian_japanese_14
+		2 = east_asian_japanese_15
+		2 = east_asian_japanese_16
+		2 = east_asian_japanese_17
+		2 = east_asian_japanese_18
+		2 = east_asian_japanese_19
+		2 = east_asian_japanese_20
+		2 = east_asian_japanese_21
+		2 = east_asian_japanese_22
+		2 = east_asian_japanese_23
+		2 = east_asian_japanese_24
+		2 = east_asian_japanese_25
+		2 = east_asian_japanese_26
+		2 = east_asian_japanese_27
+		2 = east_asian_japanese_28
+		2 = east_asian_japanese_29
+		2 = east_asian_japanese_30
+		2 = east_asian_japanese_31
+		2 = east_asian_japanese_32
+		2 = east_asian_japanese_33
+		2 = east_asian_japanese_34
+		2 = east_asian_japanese_35
+		2 = east_asian_japanese_36
+		2 = east_asian_japanese_37
+	}
+}

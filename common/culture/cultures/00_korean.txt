@@ -1,0 +1,384 @@
+goryeo = {
+	color = goryeo
+	created = 1000.1.1
+	parents = { goguryeo silla }
+
+	#name_order_convention = dynasty_always_first
+	ethos = ethos_courtly
+	heritage = heritage_korean
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_court_eunuchs
+	}
+
+	dlc_tradition = {
+		trait = tradition_scholar_officials
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_philosopher_culture
+	}
+	
+	dlc_tradition = {
+		trait = tradition_cultural_primacy
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_isolationist
+	}
+	
+	dlc_tradition = {
+		trait = tradition_stratified_society
+		requires_dlc_flag = all_under_heaven
+	}
+	
+	dlc_tradition = {
+		trait = tradition_sinophilic
+		requires_dlc_flag = all_under_heaven
+	}
+	
+	dlc_tradition = {
+		trait = tradition_fortress_mastery
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_castle_keepers
+	}
+
+	name_list = name_list_korean
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { korean_clothing_gfx chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_frame_09
+
+	ethnicities = {
+		2 = east_asian_korean_01
+		2 = east_asian_korean_02
+		2 = east_asian_korean_03
+		2 = east_asian_korean_04
+		2 = east_asian_korean_05
+		2 = east_asian_korean_06
+		2 = east_asian_korean_07
+		2 = east_asian_korean_08
+		2 = east_asian_korean_09
+		2 = east_asian_korean_10
+		2 = east_asian_korean_11
+		2 = east_asian_korean_12
+		2 = east_asian_korean_13
+		2 = east_asian_korean_14
+		2 = east_asian_korean_15
+		2 = east_asian_korean_16
+		2 = east_asian_korean_17
+		2 = east_asian_korean_18
+		2 = east_asian_korean_19
+		2 = east_asian_korean_20
+		2 = east_asian_korean_21
+		2 = east_asian_korean_22
+		2 = east_asian_korean_23
+		2 = east_asian_korean_24
+		2 = east_asian_korean_25
+		2 = east_asian_korean_26
+		2 = east_asian_korean_27
+		2 = east_asian_korean_28
+		2 = east_asian_korean_29
+		2 = east_asian_korean_30
+		2 = east_asian_korean_31
+	}
+}
+
+silla = {
+	color = silla
+
+	#name_order_convention = dynasty_always_first
+	ethos = ethos_courtly
+	heritage = heritage_korean
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_poetry
+	}
+	
+	dlc_tradition = {
+		trait = tradition_stratified_society
+		requires_dlc_flag = all_under_heaven
+	}
+	
+	dlc_tradition = {
+		trait = tradition_sinophilic
+		requires_dlc_flag = all_under_heaven
+	}
+	
+	dlc_tradition = {
+		trait = tradition_cultural_primacy
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_isolationist
+	}
+	
+	dlc_tradition = {
+		trait = tradition_fortress_mastery
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_castle_keepers
+	}
+
+	name_list = name_list_korean
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { korean_clothing_gfx chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_frame_09
+
+	ethnicities = {
+		2 = east_asian_korean_01
+		2 = east_asian_korean_02
+		2 = east_asian_korean_03
+		2 = east_asian_korean_04
+		2 = east_asian_korean_05
+		2 = east_asian_korean_06
+		2 = east_asian_korean_07
+		2 = east_asian_korean_08
+		2 = east_asian_korean_09
+		2 = east_asian_korean_10
+		2 = east_asian_korean_11
+		2 = east_asian_korean_12
+		2 = east_asian_korean_13
+		2 = east_asian_korean_14
+		2 = east_asian_korean_15
+		2 = east_asian_korean_16
+		2 = east_asian_korean_17
+		2 = east_asian_korean_18
+		2 = east_asian_korean_19
+		2 = east_asian_korean_20
+		2 = east_asian_korean_21
+		2 = east_asian_korean_22
+		2 = east_asian_korean_23
+		2 = east_asian_korean_24
+		2 = east_asian_korean_25
+		2 = east_asian_korean_26
+		2 = east_asian_korean_27
+		2 = east_asian_korean_28
+		2 = east_asian_korean_29
+		2 = east_asian_korean_30
+		2 = east_asian_korean_31
+	}
+}
+
+baekje = {
+	color = baekje
+
+	#name_order_convention = dynasty_always_first
+	ethos = ethos_spiritual
+	heritage = heritage_buyeo
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_astute_diplomats
+		tradition_maritime_mercantilism
+		tradition_religious_patronage
+	}
+	
+	dlc_tradition = {
+		trait = tradition_cultural_primacy
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_isolationist
+	}
+	
+	dlc_tradition = {
+		trait = tradition_sinophilic
+		requires_dlc_flag = all_under_heaven
+	}
+
+	name_list = name_list_korean
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { korean_clothing_gfx chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_frame_09
+
+	ethnicities = {
+		2 = east_asian_korean_01
+		2 = east_asian_korean_02
+		2 = east_asian_korean_03
+		2 = east_asian_korean_04
+		2 = east_asian_korean_05
+		2 = east_asian_korean_06
+		2 = east_asian_korean_07
+		2 = east_asian_korean_08
+		2 = east_asian_korean_09
+		2 = east_asian_korean_10
+		2 = east_asian_korean_11
+		2 = east_asian_korean_12
+		2 = east_asian_korean_13
+		2 = east_asian_korean_14
+		2 = east_asian_korean_15
+		2 = east_asian_korean_16
+		2 = east_asian_korean_17
+		2 = east_asian_korean_18
+		2 = east_asian_korean_19
+		2 = east_asian_korean_20
+		2 = east_asian_korean_21
+		2 = east_asian_korean_22
+		2 = east_asian_korean_23
+		2 = east_asian_korean_24
+		2 = east_asian_korean_25
+		2 = east_asian_korean_26
+		2 = east_asian_korean_27
+		2 = east_asian_korean_28
+		2 = east_asian_korean_29
+		2 = east_asian_korean_30
+		2 = east_asian_korean_31
+	}
+}
+
+goguryeo = {
+	color = goguryeo
+
+	#name_order_convention = dynasty_always_first
+	ethos = ethos_bellicose
+	heritage = heritage_buyeo
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_martial_admiration
+		tradition_warriors_by_merit
+	}
+	
+	dlc_tradition = {
+		trait = tradition_cultural_primacy
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_isolationist
+	}
+	
+	dlc_tradition = {
+		trait = tradition_sinophilic
+		requires_dlc_flag = all_under_heaven
+	}
+	
+	dlc_tradition = {
+		trait = tradition_fortress_mastery
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_castle_keepers
+	}
+
+	name_list = name_list_korean
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { korean_clothing_gfx chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_frame_09
+
+	ethnicities = {
+		2 = east_asian_korean_01
+		2 = east_asian_korean_02
+		2 = east_asian_korean_03
+		2 = east_asian_korean_04
+		2 = east_asian_korean_05
+		2 = east_asian_korean_06
+		2 = east_asian_korean_07
+		2 = east_asian_korean_08
+		2 = east_asian_korean_09
+		2 = east_asian_korean_10
+		2 = east_asian_korean_11
+		2 = east_asian_korean_12
+		2 = east_asian_korean_13
+		2 = east_asian_korean_14
+		2 = east_asian_korean_15
+		2 = east_asian_korean_16
+		2 = east_asian_korean_17
+		2 = east_asian_korean_18
+		2 = east_asian_korean_19
+		2 = east_asian_korean_20
+		2 = east_asian_korean_21
+		2 = east_asian_korean_22
+		2 = east_asian_korean_23
+		2 = east_asian_korean_24
+		2 = east_asian_korean_25
+		2 = east_asian_korean_26
+		2 = east_asian_korean_27
+		2 = east_asian_korean_28
+		2 = east_asian_korean_29
+		2 = east_asian_korean_30
+		2 = east_asian_korean_31
+	}
+}
+
+balhae = {
+	#color = balhae
+	color = { 0.3 0.0 0.3 }
+	created = 700.1.1
+	parents = { mohe goguryeo }
+
+	#name_order_convention = dynasty_always_first
+	ethos = ethos_courtly
+	heritage = heritage_buyeo
+	language = language_tungusic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_castle_keepers
+		tradition_warriors_by_merit
+		tradition_culture_blending
+	}
+	
+	dlc_tradition = {
+		trait = tradition_cultural_primacy
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_isolationist
+	}
+	
+	dlc_tradition = {
+		trait = tradition_sinophilic
+		requires_dlc_flag = all_under_heaven
+	}
+
+	name_list = name_list_balhae
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { korean_clothing_gfx chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx }
+	house_coa_frame = house_frame_09
+
+	ethnicities = {
+		2 = east_asian_korean_01
+		2 = east_asian_korean_02
+		2 = east_asian_korean_03
+		2 = east_asian_korean_04
+		2 = east_asian_korean_05
+		2 = east_asian_korean_06
+		2 = east_asian_korean_07
+		2 = east_asian_korean_08
+		2 = east_asian_korean_09
+		2 = east_asian_korean_10
+		2 = east_asian_korean_11
+		2 = east_asian_korean_12
+		2 = east_asian_korean_13
+		2 = east_asian_korean_14
+		2 = east_asian_korean_15
+		2 = east_asian_korean_16
+		2 = east_asian_korean_17
+		2 = east_asian_korean_18
+		2 = east_asian_korean_19
+		2 = east_asian_korean_20
+		2 = east_asian_korean_21
+		2 = east_asian_korean_22
+		2 = east_asian_korean_23
+		2 = east_asian_korean_24
+		2 = east_asian_korean_25
+		2 = east_asian_korean_26
+		2 = east_asian_korean_27
+		2 = east_asian_korean_28
+		2 = east_asian_korean_29
+		2 = east_asian_korean_30
+		2 = east_asian_korean_31
+	}
+}
+
